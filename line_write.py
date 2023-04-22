@@ -10,7 +10,11 @@ def line_write():
             # Let user choose whether add more text per line or stop
             choice = input("Are there more lines y/n? ")
             # If y
-# Repeat the process
+            if choice == "y":
+                # Repeat the process
+                enter_line = input("Enter line: ")
+                myfile.write(enter_line + "/n")
+                choice = input("Are there more lines y/n? ")
 # If n
 # Stop the program
 # start
