@@ -3,11 +3,14 @@
 def line_write():
 # open myfile.txt(append)
     with open("myfile.txt", "a") as myfile:
-
-# Let user enter line
+        while True:    
+            # Let user enter line
+            enter_line = input("Enter line: ")
+            myfile.write(enter_line + "/n")
 # Let user choose whether add more text per line or stop
 # If y
 # Repeat the process
 # If n
 # Stop the program
 # start
+line_write()
