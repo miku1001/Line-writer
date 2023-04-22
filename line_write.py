@@ -19,6 +19,7 @@ def line_write():
             if choice == "n":
                 # Stop the program
                 break
+            # If invalid key
             else:
                 print("Invalid Key")
                 choice = input("Are there more lines y/n? ")
