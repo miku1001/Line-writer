@@ -32,7 +32,7 @@ To run this program, you need to:
     1. Enter line you want
     2. Choose whether you want to continue or stop the program.
        - if Y: the program will restart.
-       - if N: the program will stop and text will be written in the .txt file.>
+       - if N: the program will stop and text will be written in the .txt file.
 
 
 ### Contact☎️ <a name="contact"></a>
