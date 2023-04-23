@@ -25,7 +25,7 @@ while True:
         line_write()
     # If n
     elif choice == "n":
-        print("Text written succcesfully.\U0001F973 \U0001F973")
+        print("Text written successfully.\U0001F973 \U0001F973")
         # Stop the program
         break
     # If invalid key
